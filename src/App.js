@@ -27,7 +27,7 @@ const App = () => (
 	>
 		<Tabbar
 			id="main"
-			activeStory="about"
+			activeStory="services"
 		>
 			<Page
 				id="about"
