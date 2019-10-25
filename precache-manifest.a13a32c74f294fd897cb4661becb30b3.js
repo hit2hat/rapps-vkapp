@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c7b32210897883503be564dbc09fa0c",
+    "revision": "41cc5207b1163bec6847e6e0825697f0",
     "url": "/rapps-vkapp/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rapps-vkapp/static/js/2.16ee02da.chunk.js"
   },
   {
-    "revision": "c090661266a5af416a9d",
-    "url": "/rapps-vkapp/static/js/main.5bed4d3e.chunk.js"
+    "revision": "2ecbe53333ec234e0b10",
+    "url": "/rapps-vkapp/static/js/main.5396a7aa.chunk.js"
   },
   {
     "revision": "46e62b243d340f06a5ca",

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/rapps-vkapp/static/js/main.5bed4d3e.chunk.js",
-    "main.js.map": "/rapps-vkapp/static/js/main.5bed4d3e.chunk.js.map",
+    "main.js": "/rapps-vkapp/static/js/main.5396a7aa.chunk.js",
+    "main.js.map": "/rapps-vkapp/static/js/main.5396a7aa.chunk.js.map",
     "runtime-main.js": "/rapps-vkapp/static/js/runtime-main.259f9477.js",
     "runtime-main.js.map": "/rapps-vkapp/static/js/runtime-main.259f9477.js.map",
     "static/css/2.27cde75d.chunk.css": "/rapps-vkapp/static/css/2.27cde75d.chunk.css",
     "static/js/2.16ee02da.chunk.js": "/rapps-vkapp/static/js/2.16ee02da.chunk.js",
     "static/js/2.16ee02da.chunk.js.map": "/rapps-vkapp/static/js/2.16ee02da.chunk.js.map",
     "index.html": "/rapps-vkapp/index.html",
-    "precache-manifest.61c5080365eb04805940803857182205.js": "/rapps-vkapp/precache-manifest.61c5080365eb04805940803857182205.js",
+    "precache-manifest.a13a32c74f294fd897cb4661becb30b3.js": "/rapps-vkapp/precache-manifest.a13a32c74f294fd897cb4661becb30b3.js",
     "service-worker.js": "/rapps-vkapp/service-worker.js",
     "static/css/2.27cde75d.chunk.css.map": "/rapps-vkapp/static/css/2.27cde75d.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.259f9477.js",
     "static/css/2.27cde75d.chunk.css",
     "static/js/2.16ee02da.chunk.js",
-    "static/js/main.5bed4d3e.chunk.js"
+    "static/js/main.5396a7aa.chunk.js"
   ]
 }
