@@ -1,0 +1,46 @@
+{
+  "name": "rapps-vkapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=10888 react-scripts start",
+    "convert-assets": "svgr --no-dimensions -d src/assets assets",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://hit2hat.github.io/rapps-vkapp",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "react-hot-loader": "^4.12.15",
+    "react-scripts": "^3.2.0"
+  },
+  "dependencies": {
+    "@svgr/cli": "^4.3.3",
+    "@vkontakte/icons": "^1.10.2",
+    "@vkontakte/vk-connect": "^1.6.8",
+    "@vkontakte/vkui": "^2.32.4",
+    "babel-eslint": "^10.0.3",
+    "chalk": "^2.4.2",
+    "core-js": "^3.3.4",
+    "firebase": "^7.2.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "vkui-navigator": "^1.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
