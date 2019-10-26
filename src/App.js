@@ -3,7 +3,7 @@ import { Stack, Tabbar, Page } from "vkui-navigator/dist";
 
 // Panels
 import Services from "./containers/Services";
-import Libs from "./containers/Libs";
+import Libraries from "./containers/Libraries";
 import Staff from "./containers/Staff";
 import About from "./containers/About";
 import Articles from "./containers/Articles";
@@ -27,7 +27,7 @@ const App = () => (
 	>
 		<Tabbar
 			id="main"
-			activeStory="services"
+			activeStory="articles"
 		>
 			<Page
 				id="about"
@@ -43,7 +43,7 @@ const App = () => (
 				title="Библиотеки"
 				icon={<Icon28FavoriteOutline/>}
 			>
-				<Libs id="libs"/>
+				<Libraries id="libs"/>
 			</Page>
 			<Page
 				id="services"

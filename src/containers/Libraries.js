@@ -9,7 +9,7 @@ import LibraryCard from "../components/LibraryCard";
 
 import { getLibraries } from "../utils/api";
 
-const Libs = ({ id, navigator }) => {
+const Libraries = ({ id, navigator }) => {
 	const [ loaded, setLoaded ] = useState(false);
 	const [ libraries, setLibraries ] = useState([]);
 
@@ -45,4 +45,4 @@ const Libs = ({ id, navigator }) => {
 	);
 };
 
-export default Libs;
+export default Libraries;

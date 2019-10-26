@@ -57,3 +57,14 @@ export const getServices = () => new Promise((resolve) => {
 		})
 		.catch(() => resolve([]));
 });
+
+export const getArticles = () => new Promise((resolve) => {
+	const ref = firestore.collection("articles").get();
+	ref
+		.then((refs) => {
+			const result = [];
+			refs.forEach((ref) => result.push({ id: ref.id, ...ref.data() }));
+			resolve(result);
+		})
+		.catch(() => resolve([]));
+});
